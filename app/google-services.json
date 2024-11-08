@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1031057281324",
+    "project_id": "clinic-ease",
+    "storage_bucket": "clinic-ease.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1031057281324:android:6c5de696356ab0a0555c89",
+        "android_client_info": {
+          "package_name": "com.example.clinicease"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6J32DT2F9sVVYSGkvy5Vd-O66cZPJ6Qo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

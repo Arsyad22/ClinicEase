@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary and secondary color themes -->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+
+    <!-- Standard black and white -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Background color for the entire app -->
+    <color name="backgroundColor">#F5F5F5</color>
+
+    <!-- Primary theme colors -->
+    <color name="primaryColor">#FFC107</color> <!-- A warm yellow -->
+    <color name="primaryColorDark">#FFA000</color> <!-- Darker version of primary -->
+
+    <!-- Accent and secondary colors -->
+    <color name="secondaryColor">#FF9800</color> <!-- A bright orange for contrast -->
+    <color name="accentColor">#FFFFFF</color> <!-- Accent color, typically white -->
+    <color name="colorPrimary">#6200EE</color>
+
+    <!-- Text colors -->
+    <color name="textColor">#212121</color> <!-- Dark color for text -->
+    <color name="textPrimary">#212121</color> <!-- High contrast text -->
+    <color name="textSecondary">#757575</color> <!-- Medium contrast text for secondary uses -->
+
+    <!-- Button and input text colors -->
+    <color name="buttonText">#FFFFFF</color> <!-- White text for buttons -->
+    <color name="inputTextColor">#000000</color> <!-- Black input text -->
+
+    <!-- Button text color -->
+    <color name="buttonTextColor">#FFFFFF</color>
+</resources>

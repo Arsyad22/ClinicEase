@@ -1,0 +1,147 @@
+<resources>
+    <!-- App Name -->
+    <string name="app_name">Clinic Ease</string>
+
+    <!-- Welcome Screen Text -->
+    <string name="welcome_title">Clinic Ease</string>
+    <string name="welcome_subtitle">Let\'s get started</string>
+    <string name="welcome_description">Enjoy the features we\'ve provided, and stay healthy!</string>
+
+    <!-- Authentication Buttons -->
+    <string name="register">Register</string>
+    <string name="login">Log In</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+
+    <!-- Input Field Labels -->
+    <string name="hint_name">Full Name</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_age">Age</string>
+    <string name="hint_address">Address</string>
+    <string name="hint_contact">Contact Number</string>
+    <string name="hint_ic_number">IC Number</string>
+    <string name="hint_working_id">Working ID</string>
+    <string name="hint_weight">Weight (kg)</string>
+    <string name="hint_height">Height (cm)</string>
+
+    <!-- Role Selection -->
+    <string name="role_patient">Patient</string>
+    <string name="role_doctor">Doctor</string>
+    <string name="role_nurse">Nurse</string>
+
+    <!-- Registration Messages -->
+    <string name="registration_successful">Registration successful!</string>
+    <string name="registration_failed">Registration failed. Please try again.</string>
+
+    <!-- Validation Errors -->
+    <string name="error_invalid_email">Please enter a valid email address</string>
+    <string name="error_empty_field">Please fill in all fields</string>
+    <string name="error_password_too_short">Password must be at least 6 characters</string>
+    <string name="error_invalid_ic">IC Number must be 12 digits</string>
+
+    <!-- Log In and Log Out Messages -->
+    <string name="login_successful">Login successful</string>
+    <string name="login_failed">Login failed. Please try again.</string>
+    <string name="logout_successful">Logged out successfully</string>
+
+    <!-- Navigation Labels -->
+    <string name="nav_home">Home</string>
+    <string name="nav_appointment">Appointment</string>
+    <string name="nav_history">History</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Health Data and Welcome Message (for Patient Homepage) -->
+    <string name="welcome_message">Welcome, %1$s!</string>
+    <string name="weight_label">Weight: %1$s kg</string>
+    <string name="height_label">Height: %1$s cm</string>
+    <string name="bmi_label">BMI: %1$s</string>
+    <string name="blood_pressure_label">Blood Pressure: %1$s</string>
+    <string name="sugar_level_label">Sugar Level: %1$s</string>
+
+    <!-- Announcement Strings -->
+    <string name="announcement_title">Announcement</string>
+    <string name="no_announcements">No announcements yet</string>
+
+    <!-- Queue Position -->
+    <string name="fetching_queue">Fetching your queue position&#8230;</string>
+    <string name="not_in_queue">You are not in the queue</string>
+
+    <!-- Nurse Homepage -->
+    <string name="welcome_nurse">Welcome, %1$s!</string>
+    <string name="add_announcement">Add Announcement</string>
+    <string name="choose_image">Choose Image</string>
+    <string name="announcement_hint">Add text for the announcement</string>
+    <string name="publish_announcement">Publish Announcement</string>
+    <string name="list_of_patients">List of Patients (Health Data)</string>
+    <string name="search_edit_patient">Search/Edit Patient</string>
+    <string name="date_time">Date and Time: %1$s</string>
+
+    <!-- Admin Dashboard -->
+    <string name="admin_dashboard_title">Admin Dashboard</string>
+    <string name="add_doctor">Add Doctor</string>
+    <string name="add_nurse">Add Nurse</string>
+    <string name="view_doctor_list">View Doctors List</string>
+    <string name="view_nurse_list">View Nurses List</string>
+    <string name="logout">Log Out</string>
+
+    <!-- Book Appointment -->
+    <string name="choose_appointment_date">Choose an Appointment Date</string>
+    <string name="date_hint">YYYY-MM-DD</string>
+    <string name="choose_appointment_time">Choose an Appointment Time</string>
+    <string name="confirm_booking">Confirm Booking</string>
+    <string name="appointment_details_will_appear_here">Appointment details will appear here</string>
+    <string name="qr_code_image">QR Code Image</string>
+
+    <!-- Check-In Activity -->
+    <string name="scanner_instructions">Align QR code within the frame to scan</string>
+    <string name="select_from_gallery">Select image from gallery</string>
+    <string name="confirm_arrival">Confirm Arrival</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- Nurse Homepage -->
+    <string name="announcement_image_description">Image uploaded by nurse for announcement</string>
+
+    <!-- Patient Homepage -->
+    <string name="health_title">My Health</string>
+    <string name="default_notification_channel_id">clinic_ease_notification_channel</string>
+    <string name="appointment_details">Appointment Details:\nName: %1$s\nIC Number: %2$s\nDate: %3$s\nTime: %4$s</string>
+    <string name="patient_details_format">Name: %1$s\nIC Number: %2$s\nDate: %3$s\nTime: %4$s</string>
+    <string name="invalid_qr_content">Invalid QR code content</string>
+    <string name="patient_list_content_description">List of patients</string>
+    <string name="welcome_message_default">Welcome to Clinic Ease!</string>
+    <string name="weight_hint">Weight (kg)</string>
+    <string name="height_hint">Height (cm)</string>
+    <string name="blood_pressure_hint">Blood Pressure</string>
+    <string name="sugar_level_hint">Sugar Level</string>
+    <string name="patient_name_placeholder">Patient Name</string>
+    <string name="health_data">Health Data</string>
+    <string name="submit">Submit</string>
+    <string name="enter_prescription">Enter Prescription</string>
+    <string name="enter_notes">Enter Notes</string>
+    <!-- Error Handling -->
+    <string name="image_upload_error">Failed to upload image. Please try again.</string>
+    <string name="announcement_publish_success">Announcement published successfully!</string>
+    <string name="announcement_publish_failure">Failed to publish announcement. Please try again.</string>
+    <string name="patient_name">Patient Name</string>
+    <string name="edit_patient">Edit Patient</string>
+    <string name="ic_number">IC Number</string>
+    <string name="prescription">Prescription</string>
+    <string name="notes">Notes</string>
+    <string name="queue_position">Current Queue:</string>
+    <string name="welcome_doctor">Welcome, Doctor</string>
+    <string name="weight_placeholder">Weight: %1$s kg</string>
+    <string name="height_placeholder">Height: %1$s cm</string>
+    <string name="bmi_placeholder">BMI: %1$s</string>
+    <string name="blood_pressure_placeholder">Blood Pressure: %1$s</string>
+    <string name="sugar_level_placeholder">Sugar Level: %1$s</string>
+    <string name="title_doctors_notes">Doctor\'s Notes</string>
+    <string name="hint_enter_notes">Enter detailed notes here…</string>
+    <string name="title_prescription">Prescription</string>
+    <string name="hint_enter_prescription">Enter prescription details here…</string>
+    <string name="button_submit">Submit</string>
+    <string name="qr_code">QR Code</string>
+    <string name="cancel_booking">Cancel Booking</string>
+    <string name="date_amp_time_1_s"><![CDATA[Date & Time: %1$s]]></string>
+    <string name="check_up_notes" />
+</resources>

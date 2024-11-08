@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/background2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Admin Dashboard Title -->
+        <TextView
+            android:id="@+id/admin_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/admin_dashboard_title"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:paddingBottom="24dp"
+            android:textColor="@android:color/black" />
+
+        <!-- Input Field for Name -->
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_name"
+            android:inputType="textPersonName"
+            android:autofillHints="name"
+            android:padding="12dp"
+            android:background="@android:drawable/editbox_background"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Input Field for Working ID -->
+        <EditText
+            android:id="@+id/working_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_working_id"
+            android:inputType="text"
+            android:autofillHints="username"
+            android:padding="12dp"
+            android:background="@android:drawable/editbox_background"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Spinner for Gender Selection -->
+        <Spinner
+            android:id="@+id/gender_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="@android:drawable/editbox_background"
+            android:minHeight="48dp"
+            android:spinnerMode="dropdown" />
+
+        <!-- Input Field for IC Number -->
+        <EditText
+            android:id="@+id/ic_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_ic_number"
+            android:inputType="number"
+            android:autofillHints="postalCode"
+            android:maxLength="12"
+            android:padding="12dp"
+            android:background="@android:drawable/editbox_background"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Input Field for Contact Number -->
+        <EditText
+            android:id="@+id/contact_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_contact"
+            android:inputType="phone"
+            android:autofillHints="phone"
+            android:padding="12dp"
+            android:background="@android:drawable/editbox_background"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Input Field for Email -->
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_email"
+            android:inputType="textEmailAddress"
+            android:autofillHints="emailAddress"
+            android:padding="12dp"
+            android:background="@android:drawable/editbox_background"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Input Field for Password -->
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_password"
+            android:inputType="textPassword"
+            android:autofillHints="password"
+            android:padding="12dp"
+            android:background="@android:drawable/editbox_background"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Button to Add Doctor -->
+        <Button
+            android:id="@+id/addDoctorButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/add_doctor"
+            android:textStyle="bold"
+            android:background="@drawable/button_selector"
+            android:backgroundTint="@android:color/holo_blue_light"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Button to Add Nurse -->
+        <Button
+            android:id="@+id/addNurseButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/add_nurse"
+            android:background="@drawable/button_selector"
+            android:textStyle="bold"
+            android:backgroundTint="@android:color/holo_green_light"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Button to View Doctor List -->
+
+
+        <!-- Log Out Button -->
+        <Button
+            android:id="@+id/logoutButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/logout"
+            android:textStyle="bold"
+            android:backgroundTint="@android:color/holo_red_dark"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="24dp" />
+
+    </LinearLayout>
+</ScrollView>

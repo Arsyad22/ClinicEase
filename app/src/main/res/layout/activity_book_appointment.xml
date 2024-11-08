@@ -1,0 +1,111 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/background2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".BookAppointmentActivity">
+
+        <!-- Card View for Appointment Booking Form -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="24dp"
+            android:backgroundTint="@color/white"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="24dp">
+
+                <!-- Appointment Date TextView and Input -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/choose_appointment_date"
+                    android:textSize="24sp"
+                    android:textColor="@color/textPrimary"
+                    android:layout_gravity="center"
+                    android:paddingBottom="16dp" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/date_hint">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/editTextDate"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:inputType="none"
+                        android:focusable="false" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <!-- Appointment Time Selection -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/choose_appointment_time"
+                    android:textSize="24sp"
+                    android:textColor="@color/textPrimary"
+                    android:layout_gravity="center"
+                    android:paddingTop="16dp" />
+
+                <Spinner
+                    android:id="@+id/spinnerTimeSlots"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/spinner_background"
+                    android:minHeight="48dp"
+                    android:padding="12dp" />
+
+                <!-- Confirm Booking Button -->
+                <Button
+                    android:id="@+id/buttonConfirmBooking"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/confirm_booking"
+                    android:textColor="@android:color/black"
+                    android:backgroundTint="@color/primaryColor"
+                    android:layout_marginTop="24dp"
+                    android:padding="12dp"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Appointment Details (Initially Hidden) -->
+        <TextView
+            android:id="@+id/textAppointmentDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:visibility="gone"
+            android:textSize="16sp"
+            android:textColor="@color/textPrimary"
+            android:text="@string/appointment_details_will_appear_here" />
+
+        <!-- QR Code Image (Initially Hidden) -->
+        <ImageView
+            android:id="@+id/qrCodeImageView"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:visibility="gone"
+            android:contentDescription="@string/qr_code_image" />
+
+    </LinearLayout>
+
+</ScrollView>

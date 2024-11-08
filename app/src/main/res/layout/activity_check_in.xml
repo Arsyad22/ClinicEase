@@ -1,0 +1,90 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Scanner Preview -->
+    <FrameLayout
+        android:id="@+id/scannerFrame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true">
+
+        <!-- QR Code Scanner View -->
+        <SurfaceView
+            android:id="@+id/qrScannerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <!-- Overlay with instructions -->
+        <TextView
+            android:id="@+id/scannerInstructions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Align QR code within the frame"
+            android:textSize="16sp"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            android:padding="12dp"
+            android:background="@android:color/black"
+            android:alpha="0.7" />
+    </FrameLayout>
+
+    <!-- Floating button to select image from gallery -->
+    <ImageButton
+        android:id="@+id/selectImageButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@android:drawable/ic_menu_gallery"
+        android:contentDescription="Select from gallery"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        app:tint="@android:color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="24dp" />
+
+    <!-- Patient Details & Confirmation Section -->
+    <LinearLayout
+        android:id="@+id/patientDetailsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:visibility="gone"
+        android:background="@android:color/white"
+        android:layout_marginTop="8dp">
+
+        <!-- Patient Details TextView -->
+        <TextView
+            android:id="@+id/patientDetailsTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:paddingBottom="8dp" />
+
+        <!-- Confirmation Button -->
+        <Button
+            android:id="@+id/confirmArrivalButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Confirm Arrival"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:backgroundTint="@android:color/holo_orange_light"
+            android:visibility="gone"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Cancel Button -->
+        <Button
+            android:id="@+id/cancelButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:textSize="16sp"
+            android:textColor="@android:color/white"
+            android:backgroundTint="@android:color/holo_red_dark"
+            android:visibility="gone" />
+    </LinearLayout>
+</RelativeLayout>
